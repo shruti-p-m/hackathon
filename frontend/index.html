@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multilingual Video Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Video Insight Dashboard</h1>
+  <input type="file" id="videoInput" accept="video/mp4">
+  <button onclick="uploadVideo()">Analyze</button>
+
+  <h2>Live Transcript</h2>
+  <pre id="transcript"></pre>
+
+  <h2>Meeting Minutes</h2>
+  <p id="minutes"></p>
+
+  <h2>Tone Timeline</h2>
+  <div id="toneTimeline"></div>
+
+  <h2>Sentiment per Speaker</h2>
+  <div id="sentiment"></div>
+
+  <h2>Emotion per Speaker</h2>
+  <div id="emotion"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
